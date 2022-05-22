@@ -188,6 +188,9 @@ img {
   width: 70px;
   height: 70px;
   color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: #000 1px 0 8px;
   text-transform: uppercase; }
 
 #main-nav {
