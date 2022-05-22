@@ -232,8 +232,9 @@ img {
   margin-top: 3rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(4, 1fr); }
-  #home-a .specials .fas {
+  grid-template-columns: repeat(3, 1fr); }
+  #home-a .specials .fas,
+  #home-a .specials .fab {
     color: #ffbc00;
     padding-bottom: 0.4rem; }
 
@@ -336,10 +337,11 @@ img {
 
 #about-c .about-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem; }
   #about-c .about-logos img {
-    width: 70%; }
+    width: 40%;
+    justify-self: center; }
 
 #about-d .testimonials {
   display: grid;
