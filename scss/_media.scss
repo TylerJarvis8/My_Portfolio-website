@@ -24,7 +24,7 @@
         &-home{
             height: 10rem;
             border-bottom: 3px solid $main-color;
-            background-position: 20% 30%;
+            background-position: center 20%;
 
             .header-content{
                 display: none;
@@ -127,7 +127,7 @@
             padding: 1rem;
             height: 5rem;
             
-            .social  .fab{
+            .social a {
                 margin: 0 0.5rem;
             }
         }
